@@ -2,7 +2,6 @@
 
 # create function for the shell command
 function create(){
-    cd
     source .env
     python create.py $1
     cd $path$1
